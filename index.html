@@ -4,6 +4,13 @@
 	<head>
 		<meta charset="UTF-8">
 		<link href="css/reset.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+
+		<!--[if lt IE 9]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+			<script src="scripts/html5shiv-printshiv.js"></script>
+		<![endif]-->
+		
 		<title>Instant Update Database Project by WebinAction.co.uk</title>
 	</head>
 
@@ -12,57 +19,57 @@
 			<h1>Instant Update Database Project</h1>
 		</header>
 
-		<nav>
-			<div>
+		<nav class="navigation">
+			<div class="select_users">
 				<h2><a href="#">Logged-in user's name</a></h2>
 			</div>
-			<ul>
+			<ul class="users">
 				<li><a href="#">List of other users</a></li>
 				<li><a href="#">List of other users</a></li>
 				<li><a href="#">List of other users</a></li>
 			</ul>
-			<ul>
+			<ul class="admin">
 				<li><a href="#">Manage users</a></li>
 				<li><a href="#">Manage users</a></li>
 			</ul>
 		</nav>
 
-		<nav>
+		<nav class="favs_list">
 			<h2>Favorites</h2>
 
-			<ul>
+			<ul class="favs">
 				<li><a href="#">Movie Title</a></li>
 				<li><a href="#">Movie Title</a></li>
 				<li><a href="#">Movie Title</a></li>
 			</ul>
 		</nav>
 		
-		<section>
+		<section class="movie_list">
 			<h2>Hi, (username will appear here)</h2>
-			<p>Here are some movies you might like.
+			<p class="welcome">Here are some movies you might like.
 				Click on the heart icon to add them to your favorites list.</p>
 			<ul>
 				<li>
-					<figure><a href="#">Thumbnail image</a>
+					<figure><a href="#"><img class="thumbnail" alt="Thumbnail" src="images-movies/thumbnail.png"></a>
 						<figcaption>
 							<h3><a href="#">Movie Title</a></h3>
-							<div>Movie description</div>
+							<div class="description">Movie description</div>
 						</figcaption>
 					</figure>
 				</li>
 				<li>
-					<figure><a href="#">Thumbnail image</a>
+					<figure><a href="#"><img class="thumbnail" alt="Thumbnail" src="images-movies/thumbnail.png"></a>
 						<figcaption>
 							<h3><a href="#">Movie Title</a></h3>
-							<div>Movie description</div>
+							<div class="description">Movie description</div>
 						</figcaption>
 					</figure>
 				</li>
 				<li>
-					<figure><a href="#">Thumbnail image</a>
+					<figure><a href="#"><img class="thumbnail" alt="Thumbnail" src="images-movies/thumbnail.png"></a>
 						<figcaption>
 							<h3><a href="#">Movie Title</a></h3>
-							<div>Movie description</div>
+							<div class="description">Movie description</div>
 						</figcaption>
 					</figure>
 				</li>
